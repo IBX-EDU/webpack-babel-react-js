@@ -3,13 +3,13 @@
   "description": "My webpack project",
   "name": "webpack-babel-react-js",
   "scripts": {
-    "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development",
+    "build": "webpack --mode=production --node-env=production --env WBP_VAR=production",
+    "build:dev": "webpack --mode=development --node-env=development --env WBP_VAR=development",
     "watch": "webpack --watch",
     "serve": "webpack serve"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.1",
+    "@babel/core": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",
     "@types/react-router-dom": "^5.3.3",
@@ -22,8 +22,8 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.6.0",
     "style-loader": "^4.0.0",
-    "webpack": "^5.99.8",
+    "webpack": "^5.99.9",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.1"
+    "webpack-dev-server": "^5.2.2"
   }
 }
