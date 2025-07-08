@@ -9,7 +9,7 @@
     "serve": "webpack serve"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.7",
+    "@babel/core": "^7.28.0",
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",
     "@types/react-router-dom": "^5.3.3",
