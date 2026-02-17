@@ -22,7 +22,7 @@
     "react-dom": "^19.2.3",
     "react-router-dom": "^7.13.0",
     "style-loader": "^4.0.0",
-    "webpack": "^5.104.1",
+    "webpack": "^5.105.2",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.3"
   }
